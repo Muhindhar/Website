@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>cn.org.thinkcloud</groupId>
+    <artifactId>think-cloud-build</artifactId>
+    <version>2.0.0.RELEASE</version>
+  </parent>
+  <groupId>com.kiot.javaselinium</groupId>
+  <artifactId>selenium_basics</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <properties>
+    <rversion>2.0.0.RELEASE</rversion>
+  </properties>
+  <!--OWN Dependencies -->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>selenium_basics-domain</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>selenium_basics-repo-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.41.0</version>
+    <scope>compile</scope>
+</dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>selenium_basics-biz-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>selenium_basics-manager-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>selenium_basics-commons</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <modules>
+    <module>selenium_basics-domain</module>
+    <module>selenium_basics-commons</module>
+    <module>selenium_basics-repo-api</module>
+    <module>selenium_basics-biz-api</module>
+    <module>selenium_basics-manager-api</module>
+    <module>selenium_basics-biz-provider</module>
+    <module>selenium_basics-repo-provider</module>
+    <module>selenium_basics-manager-provider</module>
+    <module>selenium_basics-ctl</module>
+  </modules>
+</project>
