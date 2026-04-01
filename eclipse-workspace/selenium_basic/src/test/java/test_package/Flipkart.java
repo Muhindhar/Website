@@ -6,23 +6,28 @@ public class Flipkart {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		WebDriver driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://www.google.co.in");
 
-		WebElement search = driver.findElement(By.name("q"));
-		search.sendKeys("flipkart",Keys.ENTER);
-		
-		String url = "https://www.flipkart.com";
-		if(url.equals(driver.getCurrentUrl())) {
-			System.out.println("Success");
-		}
-		System.out.println("The page title is  : "+driver.getTitle());
-		System.out.println("The page source : "+driver.getPageSource());
-		System.out.println("The current url : "+driver.getCurrentUrl());
-		
-		driver.close();
-		
-		}
+			WebDriver driver = new ChromeDriver();
+			driver.get("https://www.flipkart.com/");
 
+			String title = driver.getTitle();
+			System.out.println(title);
+			System.out.println("Title Length : "+title.length());
+			
+			
+			String url = driver.getCurrentUrl();
+			String exp = "https://www.flipkart.com/";
+			
+			if (exp.equals(url)) {
+				System.out.println("it is correct URL");
+			}else {
+				System.out.println("not a correct URL");
+			}
+
+			
+			String page = driver.getPageSource();
+			//System.out.println(page);
+			System.out.println("PAGE LENGTH : "+page.length());
+			driver.close();
+		}
 }
