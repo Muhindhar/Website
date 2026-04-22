@@ -1,0 +1,86 @@
+[INFO ] 2026-04-22 12:11:07.001 [main] Login - Launching the browser
+[ERROR] 2026-04-22 12:11:07.493 [main] Login - Invalid search orange
+[DEBUG] 2026-04-22 12:11:07.791 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:11:07.797 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:11:07.801 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:11:12.989 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:11:21.093 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:11:21.833 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:11:22.375 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:11:22.381 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:11:22.385 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:11:25.521 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:11:28.391 [TestNG-PoolService-1] Login - Logging in
+[INFO ] 2026-04-22 12:22:28.689 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:22:29.478 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:22:29.481 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:22:29.483 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:22:32.655 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:22:37.503 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:22:38.013 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:22:38.158 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:22:38.159 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:22:38.160 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:22:40.701 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:22:42.597 [TestNG-PoolService-1] Login - Logging in
+[INFO ] 2026-04-22 12:30:48.504 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:30:49.359 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:30:49.361 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:30:49.363 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:30:52.204 [TestNG-PoolService-1] Login - Launching the browser
+[WARN ] 2026-04-22 12:30:53.899 [TestNG-PoolService-1] Login - Wrong username
+[INFO ] 2026-04-22 12:30:56.857 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:30:57.327 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:30:57.495 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:30:57.496 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:30:57.497 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:31:01.267 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:31:06.627 [TestNG-PoolService-1] Login - Logging in
+[INFO ] 2026-04-22 12:32:32.688 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:32:33.581 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:32:33.583 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:32:33.586 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:32:36.701 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:32:41.169 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:32:41.570 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:32:41.731 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:32:41.732 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:32:41.732 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:32:44.268 [TestNG-PoolService-1] Login - Launching the browser
+[INFO ] 2026-04-22 12:32:46.087 [TestNG-PoolService-1] Login - Logging in
+[INFO ] 2026-04-22 12:35:48.357 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:35:49.197 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:35:49.199 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:35:49.201 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:35:52.130 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:35:56.515 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:35:56.957 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:35:57.109 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:35:57.110 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:35:57.111 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:35:59.872 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:36:02.177 [main] Login - Logging in
+[INFO ] 2026-04-22 12:39:52.613 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:39:53.389 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:39:53.392 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:39:53.393 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:39:56.281 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:40:00.818 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:40:01.532 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:40:01.678 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:40:01.679 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:40:01.680 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:40:05.164 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:40:12.868 [main] Login - Logging in
+[INFO ] 2026-04-22 12:42:56.736 [main] Login - Launching the browser
+[DEBUG] 2026-04-22 12:42:57.488 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:42:57.493 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:42:57.495 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:43:00.252 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:43:04.738 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:43:05.264 [main] Login - Searched Successfully
+[DEBUG] 2026-04-22 12:43:05.395 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-22 12:43:05.396 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-22 12:43:05.397 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-22 12:43:09.718 [main] Login - Launching the browser
+[INFO ] 2026-04-22 12:43:13.001 [main] Login - Logging in
