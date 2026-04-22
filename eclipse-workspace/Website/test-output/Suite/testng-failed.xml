@@ -7,8 +7,9 @@
     <classes>
       <class name="Qafox.Login">
         <methods>
-          <include name="InvalidsearchTest" invocation-numbers="0"/>
+          <include name="InsearchTest" invocation-numbers="0"/>
           <include name="afterMethod"/>
+          <include name="invalidLoginTest" invocation-numbers="0"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- Qafox.Login -->

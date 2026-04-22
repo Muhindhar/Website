@@ -11,12 +11,12 @@ import org.testng.annotations.DataProvider;
 
 
 public class ExcelData {
-	@DataProvider(name="validData",parallel = true)
+	@DataProvider(name="validData",parallel = false)
 	public Object[][] excelDataProvider() throws IOException{
 		Object[][] arrObj =getExcelData("C:\\Users\\Muhindhar S V\\eclipse-workspace\\Website\\src\\test\\resources\\Qafox.xlsx","Sheet1");
 		return arrObj;
 	}
-	@DataProvider(name="InvalidData",parallel = true)
+	@DataProvider(name="InvalidData",parallel = false)
 	public Object[][] excelDataProvider1() throws IOException{
 		Object[][] arrObj =getExcelData("C:\\Users\\Muhindhar S V\\eclipse-workspace\\Website\\src\\test\\resources\\Qafox.xlsx","Sheet2");
 		return arrObj;
@@ -33,13 +33,18 @@ public class ExcelData {
 			 Cell cell;
 			 data=new String[noOfRows-1][noOfCols];
 			 for(int i=1;i<noOfRows;i++) {
-				 for( int j=0;j<noOfCols;j++) {
-					 row=sheet.getRow(i);
-					 cell=row.getCell(j);
-					 data[i-1][j]=cell.getStringCellValue();
-				 }
-			 }
-		 }catch (Exception e) {
+				    for(int j=0;j<noOfCols;j++) {
+				        row=sheet.getRow(i);
+				        cell=row.getCell(j);
+				        if(cell != null) {
+				            data[i-1][j] = cell.toString();   
+				        } else {
+				            data[i-1][j] = "";
+				        }
+				    }
+				}
+		 }
+			 catch (Exception e) {
 			 System.out.println(e.getMessage());
 		 }
 		 return data;
