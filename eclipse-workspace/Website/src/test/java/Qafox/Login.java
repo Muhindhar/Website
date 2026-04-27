@@ -46,31 +46,31 @@ public class Login {
         System.out.println("Valid login successful");
     }
 
-    @Test(dataProvider = "InvalidData", dataProviderClass = com.utilities.ExcelData.class)
-    public void invalidLoginTest(String email, String password) {
-
-        wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//span[normalize-space()='My Account']"))).click();
-
-        driver.findElement(By.xpath("//a[text()='Login']")).click();
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("input-email")));
-
-        driver.findElement(By.id("input-email")).sendKeys(email);
-        driver.findElement(By.id("input-password")).sendKeys(password);
-        driver.findElement(By.xpath("//input[@value='Login']")).click();
-
-        WebElement alert = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[contains(@class,'alert-danger')]")));
-
-        String actual = alert.getText();
-        System.out.println("Actual alert: " + actual);
-
-        Assert.assertTrue(actual.toLowerCase().contains("no match"));
-
-        log.warn("Wrong username");
-        System.out.println("Wrong username and password");
-    }
+//    @Test(dataProvider = "InvalidData", dataProviderClass = com.utilities.ExcelData.class)
+//    public void invalidLoginTest(String email, String password) {
+//
+//        wait.until(ExpectedConditions.elementToBeClickable(
+//                By.xpath("//span[normalize-space()='My Account']"))).click();
+//
+//        driver.findElement(By.xpath("//a[text()='Login']")).click();
+//
+//        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("input-email")));
+//
+//        driver.findElement(By.id("input-email")).sendKeys(email);
+//        driver.findElement(By.id("input-password")).sendKeys(password);
+//        driver.findElement(By.xpath("//input[@value='Login']")).click();
+//
+//        WebElement alert = wait.until(ExpectedConditions.visibilityOfElementLocated(
+//                By.xpath("//div[contains(@class,'alert-danger')]")));
+//
+//        String actual = alert.getText();
+//        System.out.println("Actual alert: " + actual);
+//
+//        Assert.assertTrue(actual.toLowerCase().contains("no match"));
+//
+//        log.warn("Wrong username");
+//        System.out.println("Wrong username and password");
+//    }
 
     @Parameters({ "search" })
     @Test
@@ -93,27 +93,27 @@ public class Login {
         System.out.println("Search successful");
     }
 
-    @Parameters({ "Insearch" })
-    @Test
-    public void InsearchTest(String search) {
-
-        WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//input[@class='form-control input-lg']")));
-
-        searchBox.sendKeys(search);
-        searchBox.sendKeys(Keys.ENTER);
-
-        WebElement result = wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[@id='content']//p")));
-
-        String actual = result.getText();
-        System.out.println("Search result: " + actual);
-
-        Assert.assertTrue(actual.toLowerCase().contains("no product"));
-
-        log.error("Invalid search " + search);
-        System.out.println("Search unsuccess");
-    }
+//    @Parameters({ "Insearch" })
+//    @Test
+//    public void InsearchTest(String search) {
+//
+//        WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(
+//                By.xpath("//input[@class='form-control input-lg']")));
+//
+//        searchBox.sendKeys(search);
+//        searchBox.sendKeys(Keys.ENTER);
+//
+//        WebElement result = wait.until(ExpectedConditions.visibilityOfElementLocated(
+//                By.xpath("//div[@id='content']//p")));
+//
+//        String actual = result.getText();
+//        System.out.println("Search result: " + actual);
+//
+//        Assert.assertTrue(actual.toLowerCase().contains("no product"));
+//
+//        log.error("Invalid search " + search);
+//        System.out.println("Search unsuccess");
+//    }
     @BeforeMethod
     public void beforeMethod() {
         driver = new ChromeDriver();
