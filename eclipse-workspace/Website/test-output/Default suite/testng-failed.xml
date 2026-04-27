@@ -5,7 +5,6 @@
     <classes>
       <class name="Qafox.Login">
         <methods>
-          <include name="InvalidsearchTest"/>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
           <include name="searchTest"/>
