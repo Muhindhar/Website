@@ -190,3 +190,25 @@
 [DEBUG] 2026-04-22 14:35:42.092 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 [INFO ] 2026-04-22 14:35:46.330 [main] Login - Launching the browser
 [INFO ] 2026-04-22 14:35:49.687 [main] Login - Logging in
+[DEBUG] 2026-04-28 09:52:39.554 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 09:52:39.563 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 09:52:39.565 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2026-04-28 09:52:39.568 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 09:52:40.301 [main] LoginDemo - Browser Initializing
+[DEBUG] 2026-04-28 09:52:46.177 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 09:52:46.177 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 09:52:46.179 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2026-04-28 09:52:46.180 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 09:52:46.202 [TestNG-PoolService-1] LoginDemo - Browser Initializing
+[INFO ] 2026-04-28 09:52:46.202 [TestNG-PoolService-2] LoginDemo - Browser Initializing
+[DEBUG] 2026-04-28 09:54:44.647 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 09:54:44.653 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 09:54:44.655 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2026-04-28 09:54:44.656 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 09:54:45.326 [main] LoginDemo - Browser Initializing
+[DEBUG] 2026-04-28 09:54:52.081 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-04-28 09:54:52.083 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2026-04-28 09:54:52.086 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+[DEBUG] 2026-04-28 09:54:52.088 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-04-28 09:54:52.134 [TestNG-PoolService-2] LoginDemo - Browser Initializing
+[INFO ] 2026-04-28 09:54:52.135 [TestNG-PoolService-1] LoginDemo - Browser Initializing

@@ -7,16 +7,16 @@ import org.testng.annotations.AfterMethod;
 
 public class BaseTest {
 
-    public WebDriver driver;
+	public WebDriver driver;
 
-    @BeforeMethod
-    public void setup() {
-        driver = new ChromeDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/");
-    }
+	@BeforeMethod
+	public void setup() {
+		driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/");
+	}
 
-    @AfterMethod
-    public void tearDown() {
-        driver.quit();
-    }
+	@AfterMethod
+	public void tearDown() {
+		driver.quit();
+	}
 }
