@@ -8,11 +8,9 @@
     </listeners>
   <test name="Login Test" thread-count="5">
 
-
     <classes>
       <class name="ITestListeners.LoginDemo"/>
     </classes>
-
   </test>
 
 </suite>
